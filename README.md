@@ -1,0 +1,2 @@
+# Building-a-CI-CD-Pipeline
+In this project, we will build a Github repository from scratch and create a scaffolding that will assist us in performing both Continuous Integration and Continuous Delivery. We'll use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next, we'll integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
