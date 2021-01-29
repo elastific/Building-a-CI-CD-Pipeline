@@ -17,15 +17,3 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-  
-- task: ArchiveFiles@2
-   inputs:
-     rootFolderOrFile: '$(Build.SourcesDirectory)'
-     includeRootFolder: false
-     archiveType: 'zip'
-     archiveFile: '$(Build.ArtifactStagingDirectory)/Application$(Build.BuildId).zip'
-     replaceExistingArchive: true
-     verbose: # (no value); this input is optional
-- publish: $(Build.ArtifactStagingDirectory)/Application$(Build.BuildId).zip
-   displayName: 'Upload package'
-   artifact: drop
