@@ -87,3 +87,4 @@ Port: 5000
 <TODO: Add link Screencast on YouTube>
 
 
+![Python application test with Github Actions - v2](https://github.com/elastific/Building-a-CI-CD-Pipeline/workflows/Python%20application%20test%20with%20Github%20Actions%20-%20v2/badge.svg)
