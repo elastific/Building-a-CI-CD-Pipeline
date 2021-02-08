@@ -25,5 +25,5 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://build-cicd-pipeline.azurewebsites.net:$PORT/predict 
+     -X POST https://building-a-ci-cd-pipeline.azurewebsites.net:$PORT/predict 
      #your application name <yourappname>goes here
